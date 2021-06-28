@@ -11,6 +11,8 @@ function AddTodo({addTodo}) {
         } else {
             addTodo(title, desc);
         }
+        setTitle("");
+        setDesc("");
     }
     return (
         <div className="container">
